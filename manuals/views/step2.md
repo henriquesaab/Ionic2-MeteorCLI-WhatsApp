@@ -158,7 +158,7 @@ Let's add some code to our `Component` with a simple logic; Once the component i
 +┊  ┊14┊  }
  ┊ 9┊15┊
 +┊  ┊16┊  private findChats(): Observable<any[]> {
-+┊  ┊17┊    return Observable.of([
++┊  ┊17┊    return Observable.arguments([
 +┊  ┊18┊      {
 +┊  ┊19┊        _id: '0',
 +┊  ┊20┊        title: 'Ethan Gonzalez',
